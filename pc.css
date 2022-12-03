@@ -9,6 +9,10 @@
     flex-direction: row;
   }
 
+  .container{
+    max-width: 300px;
+  }
+
   .sedan {
     border-radius: 10px 0 0 10px;
   }
