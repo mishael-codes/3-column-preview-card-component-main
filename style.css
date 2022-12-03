@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+:root {
+  --sedan: hsl(31, 77%, 52%);
+  --suv: hsl(184, 100%, 22%);
+  --luxury: hsl(179, 100%, 13%);
+  --heading-text: hsl(0, 0%, 95%);
+  --paragraph-text: hsla(0, 0%, 100%, 0.75);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  width: 100vw;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  margin: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  color: var(--paragraph-text);
+  padding: 2rem;
+  width: 80%;
+  min-height: fit-content;
+  line-height: 1.7rem;
+}
+
+.container h2 {
+  color: var(--heading-text);
+  margin: 1.9rem 0;
+  font-size: 3rem;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+.container p {
+  font-size: 0.95rem;
+}
+
+.sedan {
+  border-radius: 10px 10px 0 0;
+  background-color: var(--sedan);
+}
+
+.suv {
+  background-color: var(--suv);
+}
+
+.luxury {
+  border-radius: 0 0 10px 10px;
+  background-color: var(--luxury);
+}
+
+.btn {
+  border: 0;
+  outline: 0;
+  margin: 1.2rem 0;
+  padding: 0 1.3rem;
+  height: 2.5rem;
+  border-radius: 30px;
+  transition: .6s;
+}
+
+.sedan .btn {
+  color: var(--sedan);
+}
+
+.suv .btn {
+  color: var(--suv);
+}
+
+.luxury .btn {
+  color: var(--luxury);
+}
+
+.btn:hover {
+  color: var(--heading-text);
+  border: 2px solid var(--heading-text);
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 1.7rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

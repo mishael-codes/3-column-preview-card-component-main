@@ -1,0 +1,19 @@
+@media screen and (min-width: 800px) {
+    body{
+        overflow-x: hidden;
+    }
+  main {
+    margin: 0 auto;
+    padding: 0 4rem;
+    max-width: 1440px;
+    flex-direction: row;
+  }
+
+  .sedan {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .luxury {
+    border-radius: 0 10px 10px 0;
+  }
+}
