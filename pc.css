@@ -2,10 +2,12 @@
     body{
         overflow-x: hidden;
     }
+
   main {
     margin: 0 auto;
     padding: 0 4rem;
     max-width: 1440px;
+    align-items: stretch;
     flex-direction: row;
   }
 
