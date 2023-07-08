@@ -1,7 +1,7 @@
 @media screen and (min-width: 800px) {
-    body{
-        overflow-x: hidden;
-    }
+  body {
+    overflow-x: hidden;
+  }
 
   main {
     margin: 0 auto;
@@ -11,8 +11,12 @@
     flex-direction: row;
   }
 
-  .container{
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     max-width: 300px;
+    height: 500px;
   }
 
   .sedan {
@@ -21,5 +25,13 @@
 
   .luxury {
     border-radius: 0 10px 10px 0;
+  }
+
+  .container > div > p {
+    width: 213px;
+  }
+
+  .btn {
+    width: 120px;
   }
 }
